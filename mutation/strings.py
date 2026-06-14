@@ -1,4 +1,5 @@
 firstName = 'Arsalan'
-lastName = 'Mateen'
+lastName = 'Khan'
 
-lastName = 'Khan' # Immutable, will throw error
+lastName[:] = 'Mateen' # Immutable, will throw error
+print(lastName)
